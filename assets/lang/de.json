@@ -1,0 +1,262 @@
+{
+    "header": {
+        "name": "Szymon Olejnik",
+        "title": "Senior Software Entwickler",
+        "email": "kontakt@solejnik.pl",
+        "phone": "+48 667 999 207",
+        "linkedIn": "https://www.linkedin.com/in/szymon-olejnik-305b47165/"
+    },
+    "summary": {
+        "label": "Karriereübersicht",
+        "description": "Vom Mathematikstudenten über den IT-Ingenieur bis zum Senior Software Entwickler. Von dem kleinen Unternehmen, in dem es keine Dokumentation, Versionskontrolle und Tests gab, konnte ich meine Arbeit für Automobilkunden in Capgemini über alle Programmierebenen (Praktikant – Senior Software Entwickler) mit vielen Technologien und Frameworks beginnen. Später arbeitete er für ein anderes Unternehmen, um die Besonderheiten von Projekten für Finanzkunden kennenzulernen. Anschließend arbeitete er wieder für die Automotive-Kunden im Deloitte ADS. Jetzt als Freelancer tätig. Konzentriert sich auf das Backend und das Frontend. Als nächstes möchte ich mein Wissen über Cloud-Computing-Dienste (aws) verbessern. Bei Bedarf kann ich auch neue Technologien erlernen."
+    },
+    "experience": {
+        "label": "Arbeitserfahrung",
+        "usedTechnologiesLabel": "Verwendete Technologien",
+        "experienceParts": [
+            {
+                "title": "Senior Software Entwickler",
+                "customer": "Ein Kunde von y1",
+                "period": {
+                    "from": "2.2023",
+                    "to": "Heute"
+                },
+                "description": "Als Entwickler bin ich im Projekt dafür verantwortlich, die Anwendung aus der E-Commerce-Branche zu entwickeln, zu kümmern und zu testen.",
+                "achievement": {
+                    "label": "Erfolge",
+                    "description": "Ich habe die Möglichkeit, eine Anwendung bestehend aus Dutzenden von Microservices zu entwickeln und für einige davon LDAP-Integrationen vorzunehmen."
+                },
+                "usedTechnologies": [
+                    "Java 8/11/17",
+                    "Javascript",
+                    "Angular2+"
+                ]
+            },
+            {
+                "title": "Senior Software Entwickler",
+                "customer": "Ein Kunde von j-labs",
+                "period": {
+                    "from": "8.2022",
+                    "to": "1.2023"
+                },
+                "description": "Als Entwickler bin ich im Projekt dafür verantwortlich, die Anwendung aus der Logistik-/Transportbranche zu entwickeln, zu kümmern und zu testen.",
+                "achievement": {
+                    "label": "Erfolge",
+                    "description": "Ich hatte die Gelegenheit, eine große Anwendung für Hunderttausende Benutzer zu entwickeln."
+                },
+                "usedTechnologies": [
+                    "Kotlin",
+                    "Java 11",
+                    "AngularJS",
+                    "Angular2+",
+                    "NoSQL/MongoDB"
+                ]
+            },
+            {
+                "title": "Senior Software Entwickler",
+                "customer": "Deloitte - Automotive DevOps Studio",
+                "period": {
+                    "from": "6.2021",
+                    "to": "7.2022"
+                },
+                "description": "Als Entwickler bestand meine Aufgabe in meinem Projekt darin, die Anwendung ohne Backend zu entwickeln und zu testen, wobei die „Backend“-Funktionalitäten in die Cloud verlagert wurden.",
+                "achievement": {
+                    "label": "Erfolge",
+                    "description": "Ich hatte die Gelegenheit, einige der Dienste/Systeme des Kunden zu erkunden/zu erforschen, um POC zu erstellen und sie später in unsere Anwendung in der Cloud zu integrieren."
+                },
+                "usedTechnologies": [
+                    "Java 11",
+                    "Angular2+",
+                    "AWS",
+                    "Jenkins"
+                ]
+            },
+            {
+                "title": "Senior Software Entwickler",
+                "customer": "Noblesoft",
+                "period": {
+                    "from": "10.2020",
+                    "to": "5.2021"
+                },
+                "description": "Als erfahrener Entwickler bestand meine Aufgabe in meinem Projekt darin, als einziger Frontend-Entwickler selbst zu entwickeln, zu testen und auf Fehler zu prüfen. Zusätzlich musste ich die Frontend-App separat mit dem externen Keycloak-Server konfigurieren.",
+                "achievement": {
+                    "label": "Erfolge",
+                    "description": "Ich hatte die Möglichkeit, die gesamte App von Anfang bis Ende zu entwickeln. Ich musste dem Kunden helfen, den Frontend-Teil der App so zu konfigurieren, dass sie nach einem einzigen Build in mehreren Umgebungen ausgeführt werden kann. Ich konnte teilweise die Kundenbedürfnisse für die Entwicklung der neuen App analysieren."
+                },
+                "usedTechnologies": [
+                    "Java 11",
+                    "SpringBoot",
+                    "Junit",
+                    "JPA/Hibernate/SQL/PostgreSQL",
+                    "HTML/CSS",
+                    "Javascript/Typescript",
+                    "Angular2+",
+                    "Angular testing/Karma/Jasmine",
+                    "OpenID/Keycloak",
+                    "Agile"
+                ]
+            },
+            {
+                "title": "Senior Software Entwickler",
+                "customer": "Capgemini",
+                "period": {
+                    "from": "1.2020",
+                    "to": "9.2020"
+                },
+                "description": "Als erfahrener Entwickler waren meine Aufgaben in meinem Langzeitprojekt die Entwicklung der Anwendung, das Design der App zusammen mit einem engagierten UX-Designer, die Analyse von Fehlern (Suche nach Fehlerursachen), Lösungen für Fehler, die Erstellung von Testkonzepten, die Durchführung von Tests usw Testdaten vorbereiten.",
+                "achievement": {
+                    "label": "Erfolge",
+                    "description": "Als Verantwortlicher für den gesamten Angular-Teil der App (Technical Chief Designer – Frontend) musste ich das Team bei den Angular-Themen (Coding, Testing und Architektur) unterstützen. Darüber hinaus hatte ich Gelegenheit, mit dem UX-Designer und dem Kunden zusammenzuarbeiten, um die spezifischen technischen Lösungen auf der Frontend-Seite zu besprechen. Ich habe die OpenID-Architektur kennengelernt."
+                },
+                "usedTechnologies": [
+                    "Java 8",
+                    "JEE/Jersey",
+                    "Junit",
+                    "JPA/Hibernate/SQL/PostgreSQL",
+                    "HTML/CSS",
+                    "Javascript/Typescript",
+                    "Angular2+",
+                    "Angular testing/Karma/Jasmine/Selenium/e2e",
+                    "OpenID/Keycloak",
+                    "Agile"
+                ]
+            },
+            {
+                "title": "Software Entwickler",
+                "customer": "Capgemini",
+                "period": {
+                    "from": "11.2017",
+                    "to": "12.2019"
+                },
+                "description": "Als erfahrener Entwickler waren meine Aufgaben in meinem Langzeitprojekt die Entwicklung der Anwendung, die Analyse von Fehlern (Suche nach Fehlerursachen), Lösungen für Fehler, die Erstellung von Testkonzepten, die Durchführung von Tests und die Vorbereitung von Testdaten. Später im Projekt war ich für das Testen des Angular-Teils der Anwendung und später für den gesamten Frontend-Teil der Anwendung verantwortlich.",
+                "achievement": {
+                    "label": "Erfolge",
+                    "description": "Als Verantwortlicher für den Angular-Teil der App musste ich als meine Projektkollegen zunächst mehr über Angular-Testen und später über die Programmierung in Angular oder Typescript und schließlich über Angular-Architektur wissen. Ich hatte die Gelegenheit, mein Wissen in mehreren Präsentationen weiterzugeben."
+                },
+                "usedTechnologies": [
+                    "Java 8",
+                    "JEE/Jersey",
+                    "Junit",
+                    "JPA/Hibernate/SQL/PostgreSQL",
+                    "HTML/CSS",
+                    "Javascript/Typescript",
+                    "Angular2+",
+                    "Angular testing/Karma/Jasmine/Protractor/e2e",
+                    "Agile"
+                ]
+            }
+        ]
+    },
+    "skillsAndTools": {
+        "label": "Fähigkeiten",
+        "frontend": {
+            "label": "Frontend",
+            "skills": [
+                {
+                    "skillLabel": "Angular",
+                    "masterity": "90%"
+                },
+                {
+                    "skillLabel": "JavaScript/Typescript",
+                    "masterity": "85%"
+                },
+                {
+                    "skillLabel": "JKarma/Jasmine",
+                    "masterity": "85%"
+                },
+                {
+                    "skillLabel": "HTML/CSS/SASS",
+                    "masterity": "90%"
+                }
+            ]
+        },
+        "backend": {
+            "label": "Backend",
+            "skills": [
+                {
+                    "skillLabel": "Java",
+                    "masterity": "75%"
+                },
+                {
+                    "skillLabel": "Spring",
+                    "masterity": "70%"
+                },
+                {
+                    "skillLabel": "JPA/Hibernate",
+                    "masterity": "70%"
+                },
+                {
+                    "skillLabel": "SQL",
+                    "masterity": "80%"
+                }
+            ]
+        },
+        "others": {
+            "label": "Andere",
+            "skills": [
+                "Agile",
+                "Code Review",
+                "Git",
+                "Unit Testing",
+                "Angular testing",
+                "RxJs",
+                "AWS"
+            ]
+        }
+    },
+    "education": {
+        "label": "Ausbildung",
+        "educationPart": [
+            {
+                "title": "MSc der Mathematik",
+                "university": "Technische Universität Posen",
+                "period": {
+                    "from": "2012",
+                    "to": "2014"
+                }
+            },
+            {
+                "title": "BSc der Mathematik",
+                "university": "Technische Universität Posen",
+                "period": {
+                    "from": "2009",
+                    "to": "2012"
+                }
+            }
+        ]
+    },
+    "certificates": {
+        "name": "AWS Certified Cloud Practitioner",
+        "preDescription": "Level Foundational (prüfe",
+        "url": "https://www.credly.com/badges/eece7726-4b96-4337-9965-d9a2d7f0f3e8/linked_in?t=rabpg0",
+        "postDescription": "hier"
+    },
+    "courses": {
+        "label": "Kurse",
+        "entities": [
+            {
+                "name": "Qualifikation E13",
+                "description": "Entwurf lokaler Computernetzwerke und Netzwerkadministration"
+            },
+            {
+                "name": "Qualifikation E14",
+                "description": "Erstellen von Webanwendungen und Datenbanken sowie Datenbankadministrationn"
+            }
+        ]
+    },
+    "languages": [
+        {
+            "name": "Polnisch",
+            "masterity": "Native"
+        },
+        {
+            "name": "Englisch",
+            "masterity": "Kommunikativ/b2"
+        },
+        {
+            "name": "Deutsch",
+            "masterity": "Kommunikativ/b2"
+        }
+    ],
+    "aggrement": "„Ich stimme der Verarbeitung der in diesem Dokument bereitgestellten personenbezogenen Daten zur Durchführung des Einstellungsverfahrens gemäß dem Gesetz zum Schutz personenbezogener Daten vom 10. Mai 2018 (polnisches Gesetzblatt von 2018, Pos. 1000) und in Übereinstimmung mit der Verordnung (EU) 2016/679 zu Europäisches Parlament und Rat vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG (Datenschutz-Grundverordnung)”."
+}
