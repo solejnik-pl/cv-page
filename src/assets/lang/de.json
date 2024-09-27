@@ -1,4 +1,7 @@
 {
+    "key": "deutsch",
+    "cssClass": "show",
+    "dataDiv": "div-3",
     "header": {
         "name": "Szymon Olejnik",
         "title": "Senior Software Entwickler",
