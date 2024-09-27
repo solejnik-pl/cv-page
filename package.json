@@ -7,5 +7,8 @@
   "dependencies": {
     "handlebars": "^4.7.8"
   },
+  "scripts": {
+    "build": "node ./src/index.js > ./src/output.html"
+  },
   "type": "module"
 }
