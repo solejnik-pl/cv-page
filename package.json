@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "author": "Szymon Olejnik | szymon@solejnik.pl",
   "license": "ISC",
-  "description": "Szymon Olejnik CV page"
+  "description": "Szymon Olejnik CV page",
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
 }
