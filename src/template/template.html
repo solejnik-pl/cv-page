@@ -74,181 +74,180 @@ $(document).ready(function () {
 
 </div>
 
- {{#each languages}}
-<div data-div="{{this.data.dataDiv}}" class="language-site {{this.data.cssClass}}" id="{{this.data.key}}" >
-
-	    <article class="resume-wrapper text-center position-relative">
-		    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
-			    <header class="resume-header pt-4 pt-md-0">
-				    <div class="media flex-column flex-md-row">
-					    <img class="mr-3 img-fluid picture mx-auto" src="assets/images/profile.jpg" alt="">
-					    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
-						    <div class="primary-info">
-							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">{{this.data.header.name}}</h1>
-							    <div class="title mb-3">{{this.data.header.title}}</div>
-							    <ul class="list-unstyled">
-								    <li class="mb-2"><a href="#"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>{{this.data.header.email}}</a></li>
-								    <li><a href="#"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>{{this.data.header.phone}}</a></li>
-							    </ul>
-						    </div><!--//primary-info-->
-						    <div class="secondary-info ml-md-auto mt-2">
-							    <ul class="resume-social list-unstyled">
-									<li>&nbsp</li>
-									<li>&nbsp</li>
-									<li>&nbsp</li>
-									<li>&nbsp</li>
-					                <li class="mb-3"><a href="{{this.data.header.linkedIn}}"><span class="fa-container text-center mr-2"><i class="fab fa-linkedin-in fa-fw"></i></span>{{this.data.header.linkedIn}}</a></li> 
-							    </ul>
-						    </div><!--//secondary-info-->
-					    </div><!--//media-body-->
-				    </div><!--//media-->
-			    </header>
-			    <div class="resume-body p-5">
-				    <section class="resume-section summary-section mb-5">
-					    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{this.data.summary.label}}</h2>
-					    <div class="resume-section-content">
-						    <p class="mb-0">
-								{{this.data.summary.description}}
-							</p>
-					    </div>
-				    </section><!--//summary-section-->
-				    <div class="row">
-					    <div class="col-lg-9">
-						    <section class="resume-section experience-section mb-5">
-							    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{this.data.experience.label}}</h2>
-							    <div class="resume-section-content">
-								    <div class="resume-timeline position-relative">
-										{{#each this.data.experience.experienceParts}}
-											<article class="resume-timeline-item position-relative pb-5">
-												<div class="resume-timeline-item-header  mb-2">
-													<div class="d-flex flex-column flex-md-row">
-														<h3 class="resume-position-title font-weight-bold mb-1">{{this.title}}</h3>
-														<div class="resume-company-name ml-auto">{{this.customer}}</div>
-													</div><!--//row-->
-													<div class="resume-position-time">{{this.period.from}} - {{this.period.to}}</div>
-												</div><!--//resume-timeline-item-header-->
-												
-												<div class="resume-timeline-item-desc">
-													<p>{{this.description}}</p>
-													<h4 class="resume-timeline-item-desc-heading font-weight-bold">{{this.achievement.label}}</h4>
-													<p>{{this.achievement.description}}</p>
-													<h4 class="resume-timeline-item-desc-heading font-weight-bold">{{this.data.experience.usedTechnologiesLabel}}</h4>
-													<ul class="list-inline">
-														{{#each this.usedTechnologies}}
-															<li class="list-inline-item"><span class="badge badge-primary badge-pill">{{this}}</span></li>
-														{{/each}}
-													</ul>
-												</div><!--//resume-timeline-item-desc-->
-											</article><!--//resume-timeline-item-->
-										{{/each}}
-								    </div><!--//resume-timeline-->
-							    </div>
-						    </section><!--//experience-section-->
-					    </div>
-					    <div class="col-lg-3">
-						    <section class="resume-section skills-section mb-5">
-							    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{this.data.skillsAndTools.label}}</h2>
-							    <div class="resume-section-content">
-							        <div class="resume-skill-item">
-								        <h4 class="resume-skills-cat font-weight-bold">{{this.data.skillsAndTools.frontend.label}}</h4>
-								        <ul class="list-unstyled mb-4">
-											{{#each this.data.skillsAndTools.frontend.skills}}
+{{#each languages}}
+	<div data-div="{{this.data.dataDiv}}" class="language-site {{this.data.cssClass}}" id="{{this.data.key}}" >
+			<article class="resume-wrapper text-center position-relative">
+				<div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+					<header class="resume-header pt-4 pt-md-0">
+						<div class="media flex-column flex-md-row">
+							<img class="mr-3 img-fluid picture mx-auto" src="assets/images/profile.jpg" alt="">
+							<div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
+								<div class="primary-info">
+									<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">{{this.data.header.name}}</h1>
+									<div class="title mb-3">{{this.data.header.title}}</div>
+									<ul class="list-unstyled">
+										<li class="mb-2"><a href="#"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>{{this.data.header.email}}</a></li>
+										<li><a href="#"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>{{this.data.header.phone}}</a></li>
+									</ul>
+								</div><!--//primary-info-->
+								<div class="secondary-info ml-md-auto mt-2">
+									<ul class="resume-social list-unstyled">
+										<li>&nbsp</li>
+										<li>&nbsp</li>
+										<li>&nbsp</li>
+										<li>&nbsp</li>
+										<li class="mb-3"><a href="{{this.data.header.linkedIn}}"><span class="fa-container text-center mr-2"><i class="fab fa-linkedin-in fa-fw"></i></span>{{this.data.header.linkedIn}}</a></li> 
+									</ul>
+								</div><!--//secondary-info-->
+							</div><!--//media-body-->
+						</div><!--//media-->
+					</header>
+					<div class="resume-body p-5">
+						<section class="resume-section summary-section mb-5">
+							<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{this.data.summary.label}}</h2>
+							<div class="resume-section-content">
+								<p class="mb-0">
+									{{this.data.summary.description}}
+								</p>
+							</div>
+						</section><!--//summary-section-->
+						<div class="row">
+							<div class="col-lg-9">
+								<section class="resume-section experience-section mb-5">
+									<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{this.data.experience.label}}</h2>
+									<div class="resume-section-content">
+										<div class="resume-timeline position-relative">
+											{{#each this.data.experience.experienceParts}}
+												<article class="resume-timeline-item position-relative pb-5">
+													<div class="resume-timeline-item-header  mb-2">
+														<div class="d-flex flex-column flex-md-row">
+															<h3 class="resume-position-title font-weight-bold mb-1">{{this.title}}</h3>
+															<div class="resume-company-name ml-auto">{{this.customer}}</div>
+														</div><!--//row-->
+														<div class="resume-position-time">{{this.period.from}} - {{this.period.to}}</div>
+													</div><!--//resume-timeline-item-header-->
+													
+													<div class="resume-timeline-item-desc">
+														<p>{{this.description}}</p>
+														<h4 class="resume-timeline-item-desc-heading font-weight-bold">{{this.achievement.label}}</h4>
+														<p>{{this.achievement.description}}</p>
+														<h4 class="resume-timeline-item-desc-heading font-weight-bold">{{this.data.experience.usedTechnologiesLabel}}</h4>
+														<ul class="list-inline">
+															{{#each this.usedTechnologies}}
+																<li class="list-inline-item"><span class="badge badge-primary badge-pill">{{this}}</span></li>
+															{{/each}}
+														</ul>
+													</div><!--//resume-timeline-item-desc-->
+												</article><!--//resume-timeline-item-->
+											{{/each}}
+										</div><!--//resume-timeline-->
+									</div>
+								</section><!--//experience-section-->
+							</div>
+							<div class="col-lg-3">
+								<section class="resume-section skills-section mb-5">
+									<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{this.data.skillsAndTools.label}}</h2>
+									<div class="resume-section-content">
+										<div class="resume-skill-item">
+											<h4 class="resume-skills-cat font-weight-bold">{{this.data.skillsAndTools.frontend.label}}</h4>
+											<ul class="list-unstyled mb-4">
+												{{#each this.data.skillsAndTools.frontend.skills}}
+													<li class="mb-2">
+														<div class="resume-skill-name">{{this.skillLabel}}</div>
+														<div class="progress resume-progress">
+															<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: {{this.masterity}}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+														</div>
+													</li>
+												{{/each}}
+											</ul>
+										</div><!--//resume-skill-item-->
+										<div class="resume-skill-item">
+											<h4 class="resume-skills-cat font-weight-bold">{{this.data.skillsAndTools.backend.label}}</h4>
+											<ul class="list-unstyled">
+												{{#each this.data.skillsAndTools.backend.skills}}
+													<li class="mb-2">
+														<div class="resume-skill-name">{{this.skillLabel}}</div>
+														<div class="progress resume-progress">
+															<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: {{this.masterity}}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+														</div>
+													</li>
+												{{/each}}
+											</ul>
+										</div><!--//resume-skill-item-->
+										<div class="resume-skill-item">
+											<h4 class="resume-skills-cat font-weight-bold">{{this.data.skillsAndTools.others.label}} </h4>
+											<ul class="list-inline">
+												{{#each this.data.skillsAndTools.others.skills}}
+													<li class="list-inline-item"><span class="badge badge-light">{{this}}</span></li>
+												{{/each}}
+											</ul>
+										</div><!--//resume-skill-item-->
+									</div><!--resume-section-content-->
+								</section><!--//skills-section-->
+								<section class="resume-section education-section mb-5">
+									<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{this.data.education.label}}</h2>
+									<div class="resume-section-content">
+										<ul class="list-unstyled">
+											{{#each this.data.education.educationPart}}
 												<li class="mb-2">
-													<div class="resume-skill-name">{{this.skillLabel}}</div>
-													<div class="progress resume-progress">
-														<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: {{this.masterity}}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
+													<div class="resume-degree font-weight-bold">{{this.title}}</div>
+													<div class="resume-degree-org">{{this.university}}</div>
+													<div class="resume-degree-time">{{this.period.from}} - {{this.period.to}}</div>
 												</li>
 											{{/each}}
-								        </ul>
-							        </div><!--//resume-skill-item-->
-							        <div class="resume-skill-item">
-							            <h4 class="resume-skills-cat font-weight-bold">{{this.data.skillsAndTools.backend.label}}</h4>
-								        <ul class="list-unstyled">
-									        {{#each this.data.skillsAndTools.backend.skills}}
-												<li class="mb-2">
-													<div class="resume-skill-name">{{this.skillLabel}}</div>
-													<div class="progress resume-progress">
-														<div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: {{this.masterity}}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
-												</li>
-											{{/each}}
-								        </ul>
-							        </div><!--//resume-skill-item-->
-							        <div class="resume-skill-item">
-							            <h4 class="resume-skills-cat font-weight-bold">{{this.data.skillsAndTools.others.label}} </h4>
-							            <ul class="list-inline">
-											{{#each this.data.skillsAndTools.others.skills}}
-												<li class="list-inline-item"><span class="badge badge-light">{{this}}</span></li>
-											{{/each}}
-							            </ul>
-							        </div><!--//resume-skill-item-->
-							    </div><!--resume-section-content-->
-						    </section><!--//skills-section-->
-						    <section class="resume-section education-section mb-5">
-							    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{this.data.education.label}}</h2>
-							    <div class="resume-section-content">
-								    <ul class="list-unstyled">
-										{{#each this.data.education.educationPart}}
-											<li class="mb-2">
-												<div class="resume-degree font-weight-bold">{{this.title}}</div>
-												<div class="resume-degree-org">{{this.university}}</div>
-												<div class="resume-degree-time">{{this.period.from}} - {{this.period.to}}</div>
-											</li>
-										{{/each}}
-								    </ul>
-							    </div>
-						    </section><!--//education-section-->
-							<section class="resume-section reference-section mb-5">
-							    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{certificates.label}}</h2>
-							    <div class="resume-section-content">
-								    <ul class="list-unstyled resume-awards-list">
-									    <li class="mb-2">
-									        <i class="position-absolute" data-fa-transform="shrink-2"></i>
-									        <div class="resume-award-name">{{this.data.certificates.name}}</div>
-									        <div class="resume-award-desc">{{this.data.certificates.preDescription}}
-												<a target="_blank" href={{this.data.certificates.url}}>{{this.data.certificates.postDescription}}</a>)</div>
-									    </li>
-								    </ul>
-							    </div>
-						    </section><!--//interests-section-->
-						    <section class="resume-section reference-section mb-5">
-							    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{this.data.courses.label}}</h2>
-							    <div class="resume-section-content">
-								    <ul class="list-unstyled resume-awards-list">
-										{{#each this.data.courses.entities}}
+										</ul>
+									</div>
+								</section><!--//education-section-->
+								<section class="resume-section reference-section mb-5">
+									<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{certificates.label}}</h2>
+									<div class="resume-section-content">
+										<ul class="list-unstyled resume-awards-list">
 											<li class="mb-2">
 												<i class="position-absolute" data-fa-transform="shrink-2"></i>
-												<div class="resume-award-name">{{this.name}}</div>
-												<div class="resume-award-desc">{{this.description}}</div>
+												<div class="resume-award-name">{{this.data.certificates.name}}</div>
+												<div class="resume-award-desc">{{this.data.certificates.preDescription}}
+													<a target="_blank" href={{this.data.certificates.url}}>{{this.data.certificates.postDescription}}</a>)</div>
 											</li>
-										{{/each}}
-								    </ul>
-							    </div>
-						    </section><!--//interests-section-->
-						    <section class="resume-section language-section mb-5">
-							    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{this.data.languageLabel}}</h2>
-							    <div class="resume-section-content">
-								    <ul class="list-unstyled resume-lang-list">
-											{{#each this.data.languages}}
-												<li class="mb-2"><span class="resume-lang-name font-weight-bold">{{this.name}}</span> <small class="text-muted font-weight-normal">({{this.masterity}})</small></li>	
+										</ul>
+									</div>
+								</section><!--//interests-section-->
+								<section class="resume-section reference-section mb-5">
+									<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{this.data.courses.label}}</h2>
+									<div class="resume-section-content">
+										<ul class="list-unstyled resume-awards-list">
+											{{#each this.data.courses.entities}}
+												<li class="mb-2">
+													<i class="position-absolute" data-fa-transform="shrink-2"></i>
+													<div class="resume-award-name">{{this.name}}</div>
+													<div class="resume-award-desc">{{this.description}}</div>
+												</li>
 											{{/each}}
-	
-								    </ul>
-							    </div>
-						    </section><!--//language-section-->
-					    </div>
-					</div><!--//row-->
-					{{this.data.aggrement}}
-			    </div><!--//resume-body-->
-		    </div>
-	    </article>
-	    <footer class="footer text-center pt-2 pb-5">
-		     <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-	                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
-	    </footer>
+										</ul>
+									</div>
+								</section><!--//interests-section-->
+								<section class="resume-section language-section mb-5">
+									<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{this.data.languageLabel}}</h2>
+									<div class="resume-section-content">
+										<ul class="list-unstyled resume-lang-list">
+												{{#each this.data.languages}}
+													<li class="mb-2"><span class="resume-lang-name font-weight-bold">{{this.name}}</span> <small class="text-muted font-weight-normal">({{this.masterity}})</small></li>	
+												{{/each}}
+		
+										</ul>
+									</div>
+								</section><!--//language-section-->
+							</div>
+						</div><!--//row-->
+						{{this.data.aggrement}}
+					</div><!--//resume-body-->
+				</div>
+			</article>
+			<footer class="footer text-center pt-2 pb-5">
+				<!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+						<small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
+			</footer>
 
-</div>
+	</div>
 {{/each}}
 
 <!-- /START/ HIDE MENU ON SCROLL 120 -->
