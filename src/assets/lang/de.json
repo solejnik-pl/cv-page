@@ -226,6 +226,7 @@
         ]
     },
     "certificates": {
+        "label": "Zertifikate",
         "name": "AWS Certified Cloud Practitioner",
         "preDescription": "Level Foundational (prüfe",
         "url": "https://www.credly.com/badges/eece7726-4b96-4337-9965-d9a2d7f0f3e8/linked_in?t=rabpg0",
