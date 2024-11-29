@@ -1,6 +1,6 @@
 {
     "key": "deutsch",
-    "cssClass": "show",
+    "cssClass": "hidden",
     "dataDiv": "div-3",
     "header": {
         "name": "Szymon Olejnik",

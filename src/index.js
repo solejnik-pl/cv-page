@@ -10,6 +10,8 @@ const data = {
         data: JSON.parse(fs.readFileSync(__dirname + '/src/assets/lang/en.json', 'utf8'))
     },{
         data: JSON.parse(fs.readFileSync(__dirname + '/src/assets/lang/de.json', 'utf8'))
+    },{
+        data: JSON.parse(fs.readFileSync(__dirname + '/src/assets/lang/pl.json', 'utf8'))
     }]
 };
 
