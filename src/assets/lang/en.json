@@ -11,7 +11,7 @@
     },
     "summary": {
         "label": "Career Summary",
-        "description": "From the math student through IT Engineer to the Senior Software Engineer. From the small company where were no documentation, version control and tests I could start my work for automotive customers in Capgemini through all levels of programming (intern - senior software engineer) with many technologies and frameworks. Later worked for other company to learn the specificity of projects for financial customers. Then worked again for the automotive customers in the Deloitte ADS. Now working as a Freelancer. Concentrated on the backend and the frontend. As next I want to improve my knowledge about cloud computing services (aws). I can also learn new technologies when needed."
+        "description": "From the math student through IT Engineer to the Senior Software Engineer. From the small company where were no documentation, version control and tests I could start my work for automotive customers in Capgemini through all levels of programming (intern - senior software engineer) with many technologies and frameworks. Later worked for other company to learn the specificity of projects for financial customers. Then worked again for the automotive customers in the Deloitte ADS. Now working as a Freelancer. Concentrated on learning devops stack. Now I’m extending my knowledge about docker and kubernetes. I can also learn new technologies when needed."
     },
     "experience": {
         "label": "Work Experience",
@@ -21,8 +21,57 @@
                 "title": "Senior Software Engineer",
                 "customer": "A client of y1",
                 "period": {
+                    "from": "1.2024",
+                    "to": "now"
+                },
+                "description": "As developer I am mainly carrying of the backed part of the application. I receives very different tasks from each part of the subsystem of a very complex e-commerce system.",
+                "achievement": {
+                    "label": "Achievements",
+                    "description": "I have the opportunity to be a part of very big migration of the frontend part from old to the newer technology. Other opportunity was to support other team by some cms/php task."
+                },
+                "usedTechnologies": [
+                    "Java 8",
+                    "Javascript",
+                    "Typescript",
+                    "React"
+                ]
+            },
+            {
+                "title": "Senior Software Engineer",
+                "customer": "Devspire GmbH.",
+                "period": {
+                    "from": "10.2023",
+                    "to": "2.2024"
+                },
+                "description": "As developer I was mainly carrying of the frontend part of the application, adapting keycloak themes to the current application design and writing integration tests for email notifications of the backend part of the application.",
+                "achievement": {
+                    "label": "Achievements",
+                    "description": "I have the opportunity to create a test application using gcp (Google Cloud Platform) to test application functionality of sending email. This was my first application where i had contact with the concept of accessibility."
+                },
+                "usedTechnologies": [
+                    "Java 17",
+                    "Spring Boot",
+                    "Keycloak",
+                    "Typescript",
+                    "Angular2+",
+                    "GCP"
+                ]
+            },
+             {
+                "title": "Break",
+                "customer": "Without project",
+                "period": {
+                    "from": "7.2023",
+                    "to": "9.2023"
+                },
+                "description": "I was looking for a new project."
+            },
+            {
+                "title": "Senior Software Engineer",
+                "customer": "A client of y1",
+                "period": {
                     "from": "2.2023",
-                    "to": "Present"
+                    "to": "6.2023"
                 },
                 "description": "As developer my responsibilities in the project are to develop, maintain and test the application from the e-commerce industry.",
                 "achievement": {

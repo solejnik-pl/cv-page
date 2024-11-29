@@ -11,7 +11,7 @@
     },
     "summary": {
         "label": "Karriereübersicht",
-        "description": "Vom Mathematikstudenten über den IT-Ingenieur bis zum Senior Software Entwickler. Von dem kleinen Unternehmen, in dem es keine Dokumentation, Versionskontrolle und Tests gab, konnte ich meine Arbeit für Automobilkunden in Capgemini über alle Programmierebenen (Praktikant – Senior Software Entwickler) mit vielen Technologien und Frameworks beginnen. Später arbeitete er für ein anderes Unternehmen, um die Besonderheiten von Projekten für Finanzkunden kennenzulernen. Anschließend arbeitete er wieder für die Automotive-Kunden im Deloitte ADS. Jetzt als Freelancer tätig. Konzentriert sich auf das Backend und das Frontend. Als nächstes möchte ich mein Wissen über Cloud-Computing-Dienste (aws) verbessern. Bei Bedarf kann ich auch neue Technologien erlernen."
+        "description": "Vom Mathematikstudenten über den IT-Ingenieur bis zum Senior Software Entwickler. Von dem kleinen Unternehmen, in dem es keine Dokumentation, Versionskontrolle und Tests gab, konnte ich meine Arbeit für Automobilkunden in Capgemini über alle Programmierebenen (Praktikant – Senior Software Entwickler) mit vielen Technologien und Frameworks beginnen. Später arbeitete er für ein anderes Unternehmen, um die Besonderheiten von Projekten für Finanzkunden kennenzulernen. Anschließend arbeitete er wieder für die Automotive-Kunden im Deloitte ADS. Jetzt als Freelancer tätig. Konzentriert sich auf das Erlernen des DevOps-Stacks. Jetzt erweitere ich mein Wissen über Docker und Kubernetes. Bei Bedarf kann ich auch neue Technologien erlernen."
     },
     "experience": {
         "label": "Arbeitserfahrung",
@@ -21,8 +21,57 @@
                 "title": "Senior Software Entwickler",
                 "customer": "Ein Kunde von y1",
                 "period": {
-                    "from": "2.2023",
+                    "from": "1.2024",
                     "to": "Heute"
+                },
+                "description": "Als Entwickler bin ich hauptsächlich für den Backend-Teil der Anwendung verantwortlich. Ich erhalte sehr unterschiedliche Aufgaben aus jedem Teil des Subsystems eines sehr komplexen E-Commerce-Systems.",
+                "achievement": {
+                    "label": "Erfolge",
+                    "description": "Ich hatte die Möglichkeit, an einer großen Migration des Frontend-Teils von einer alten auf eine neue Technologie teilzunehmen. Eine weitere Gelegenheit war die Unterstützung eines anderen Teams bei einigen CMS-/PHP-Aufgaben."
+                },
+                "usedTechnologies": [
+                    "Java 8",
+                    "Javascript",
+                    "Typescript",
+                    "React"
+                ]
+            },
+            {
+                "title": "Senior Software Entwickler",
+                "customer": "Devspire GmbH.",
+                "period": {
+                    "from": "10.2023",
+                    "to": "2.2024"
+                },
+                "description": "Als Entwickler war ich hauptsächlich für den Frontend-Teil der Anwendung zuständig, habe Keycloak-Themen an das aktuelle Anwendungsdesign angepasst und Integrationstests für E-Mail-Benachrichtigungen des Backend-Teils der Anwendung geschrieben.",
+                "achievement": {
+                    "label": "Erfolge",
+                    "description": "Ich hatte die Möglichkeit, eine Testanwendung mit GCP (Google Cloud Platform) zu erstellen, um die Funktionalität des E-Mail-Versands zu testen. Dies war meine erste Anwendung, bei der ich mit dem Konzept der Barrierefreiheit in Berührung kam."
+                },
+                "usedTechnologies": [
+                    "Java 17",
+                    "Spring Boot",
+                    "Keycloak",
+                    "Typescript",
+                    "Angular2+",
+                    "GCP"
+                ]
+            },
+             {
+                "title": "Pause",
+                "customer": "Ohne Projekt",
+                "period": {
+                    "from": "7.2023",
+                    "to": "9.2023"
+                },
+                "description": "Ich war auf der Suche nach einem neuen Projekt."
+            },
+            {
+                "title": "Senior Software Entwickler",
+                "customer": "Ein Kunde von y1",
+                "period": {
+                    "from": "2.2023",
+                    "to": "6.2023"
                 },
                 "description": "Als Entwickler bin ich im Projekt dafür verantwortlich, die Anwendung aus der E-Commerce-Branche zu entwickeln, zu kümmern und zu testen.",
                 "achievement": {
