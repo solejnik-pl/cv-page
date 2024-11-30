@@ -8,7 +8,10 @@
     "handlebars": "^4.7.8"
   },
   "scripts": {
-    "build": "node ./src/index.js > ./src/output.html"
+    "buildPl": "node ./src/index.js pl > ./src/pl.html",
+    "buildEn": "node ./src/index.js en > ./src/en.html",
+    "buildDe": "node ./src/index.js de > ./src/de.html",
+    "build": "npm run buildPl && npm run buildEn && npm run buildDe"
   },
   "type": "module"
 }
