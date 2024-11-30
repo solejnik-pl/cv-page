@@ -11,7 +11,7 @@
     },
     "summary": {
         "label": "Podsumowanie Kariery",
-        "description": "Od studenta matematyki przez Inżyniera IT do Starszego Inżyniera Oprogramowania. Od małej firmy, gdzie brakowało dokumentacji, systemu kontroli wersji i testów, mogłem rozpocząć pracę dla klientów z branży motoryzacyjnej w Capgemini, przechodząc przez wszystkie poziomy programowania (stażysta - starszy inżynier oprogramowania) z wieloma technologiami i frameworkami. Później pracowałem w innej firmie, aby poznać specyfikę projektów dla klientów finansowych. Następnie wróciłem do projektów motoryzacyjnych w Deloitte ADS. Obecnie pracuję jako freelancer, koncentrując się na nauce umiejętnościach technicznych DevOps. Teraz pogłębiam wiedzę o Dockerze i Kubernetes. Potrafię również uczyć się nowych technologii w razie potrzeby."
+        "description": "Od studenta matematyki przez Inżyniera IT do Starszego Inżyniera Oprogramowania. Od małej firmy, gdzie brakowało dokumentacji, systemu kontroli wersji i testów, mogłem rozpocząć pracę dla klientów z branży motoryzacyjnej w Capgemini, przechodząc przez wszystkie poziomy programowania (stażysta - starszy inżynier oprogramowania) z wieloma technologiami i frameworkami. Później pracowałem w firmie, w której poznałem specyfikę projektów dla klientów finansowych. Następnie wróciłem do projektów motoryzacyjnych w Deloitte ADS. Obecnie pracuję jako freelancer, koncentrując się na nauce umiejętnościach technicznych związanych z DevOps. Teraz pogłębiam wiedzę o Dockerze i Kubernetes. W razie potrzeby jestem gotów również uczyć się nowych technologii."
     },
     "experience": {
         "label": "Doświadczenie zawodowe",
@@ -19,7 +19,7 @@
         "experienceParts": [
             {
                 "title": "Starszy Inżynier Oprogramowania",
-                "customer": "Klient firmy y1",
+                "customer": "Y1 Digital AG",
                 "period": {
                     "from": "1.2024",
                     "to": "obecnie"
@@ -27,7 +27,7 @@
                 "description": "Jako programista głównie zajmuję się częścią backendową aplikacji. Otrzymuję bardzo różnorodne zadania z różnych części podsystemów w ramach złożonego systemu e-commerce.",
                 "achievement": {
                     "label": "Osiągnięcia",
-                    "description": "Miałem okazję uczestniczyć w dużej migracji części frontendowej z technologii starszej na nowszą. Inną możliwością było wsparcie zespołu przy zadaniach związanych z CMS/PHP."
+                    "description": "Miałem okazję uczestniczyć w dużej migracji części frontendowej z technologii starszej na nowszą. Inną możliwością było wsparcie zespołu przy zadaniach związanych z obcą dla mnie technologią (Neos/CMS/PHP)."
                 },
                 "usedTechnologies": [
                     "Java 8",
@@ -43,10 +43,10 @@
                     "from": "10.2023",
                     "to": "2.2024"
                 },
-                "description": "Jako programista głównie zajmowałem się częścią frontendową aplikacji, dostosowywaniem motywów Keycloak do obecnego designu aplikacji oraz pisaniem testów integracyjnych dla powiadomień e-mail po stronie backendu.",
+                "description": "Jako programista głównie zajmowałem się częścią frontendową aplikacji, dostosowywaniem szablonów Keycloak do obecnego wyglądu aplikacji oraz pisaniem testów integracyjnych dla powiadomień e-mail po stronie backendu.",
                 "achievement": {
                     "label": "Osiągnięcia",
-                    "description": "Stworzyłem testową aplikację na GCP (Google Cloud Platform) w celu przetestowania funkcjonalności wysyłania e-maili. Była to moja pierwsza aplikacja, w której zetknąłem się z koncepcją dostępności."
+                    "description": "Stworzyłem aplikację na GCP (Google Cloud Platform) w celu przetestowania funkcjonalności wysyłania e-maili. Była to moja pierwsza aplikacja, w której zetknąłem się z koncepcją dostępności (a11y)."
                 },
                 "usedTechnologies": [
                     "Java 17",
@@ -64,11 +64,11 @@
                     "from": "7.2023",
                     "to": "9.2023"
                 },
-                "description": "Poszukiwałem nowego projektu."
+                "description": "Szukałem nowego projektu."
             },
             {
                 "title": "Starszy Inżynier Oprogramowania",
-                "customer": "Klient firmy y1",
+                "customer": "Y1 Digital AG",
                 "period": {
                     "from": "2.2023",
                     "to": "6.2023"
@@ -86,7 +86,7 @@
             },
             {
                 "title": "Starszy Inżynier Oprogramowania",
-                "customer": "Klient firmy j-labs",
+                "customer": "j-labs sp. z o.o.",
                 "period": {
                     "from": "8.2022",
                     "to": "1.2023"
@@ -94,7 +94,7 @@
                 "description": "Jako programista moje obowiązki obejmowały rozwój, utrzymanie i testowanie aplikacji w branży logistyczno-transportowej.",
                 "achievement": {
                     "label": "Osiągnięcia",
-                    "description": "Miałem możliwość pracy nad dużą aplikacją dla setek tysięcy użytkowników."
+                    "description": "Miałem możliwość pracy nad ogromną aplikacją dla setek tysięcy użytkowników."
                 },
                 "usedTechnologies": [
                     "Kotlin",
@@ -111,10 +111,10 @@
                     "from": "6.2021",
                     "to": "7.2022"
                 },
-                "description": "Jako programista odpowiadałem za rozwój i testowanie aplikacji bez backendu, gdzie funkcjonalności 'backendowe' zostały przeniesione do chmury.",
+                "description": "Jako programista byłem odpowiedzialny za rozwój i testowanie aplikacji bez backendu, gdzie funkcjonalności 'backendowe' zostały przeniesione do chmury.",
                 "achievement": {
                     "label": "Osiągnięcia",
-                    "description": "Miałem możliwość eksploracji/uszczegółowienia systemów/usług klienta, aby stworzyć Proof of Concept (POC), a następnie zintegrować je z naszą aplikacją w chmurze."
+                    "description": "Miałem możliwość eksploracji/poznania systemów/serwisów klienta, aby stworzyć Proof of Concept (POC), a następnie zintegrować je z naszą aplikacją w chmurze."
                 },
                 "usedTechnologies": [
                     "Java 11",
@@ -125,12 +125,12 @@
             },
             {
                 "title": "Starszy Inżynier Oprogramowania",
-                "customer": "Noblesoft",
+                "customer": "NobleSoft Sp. z o.o.",
                 "period": {
                     "from": "10.2020",
                     "to": "5.2021"
                 },
-                "description": "Jako doświadczony programista odpowiadałem za rozwój, testowanie i kontrolę błędów aplikacji jako jedyny frontend developer. Dodatkowo samodzielnie konfigurowałem frontend aplikacji z zewnętrznym serwerem Keycloak.",
+                "description": "Jako doświadczony programista byłem odpowiedzialny za rozwój, testowanie i kontrolę błędów aplikacji jako jedyny frontend developer. Dodatkowo samodzielnie konfigurowałem frontend aplikacji z zewnętrznym serwerem Keycloak.",
                 "achievement": {
                     "label": "Osiągnięcia",
                     "description": "Miałem możliwość opracowania całej aplikacji od początku do końca. Pomogłem klientowi skonfigurować część frontendową, tak aby działała na różnych środowiskach po pojedynczym buildzie. Analizowałem potrzeby klienta w zakresie nowej aplikacji."
@@ -150,7 +150,7 @@
             },
             {
                 "title": "Starszy Inżynier Oprogramowania",
-                "customer": "Capgemini",
+                "customer": "Capgemini Polska Sp. z o.o.",
                 "period": {
                     "from": "1.2020",
                     "to": "9.2020"
@@ -175,15 +175,15 @@
             },
             {
                 "title": "Inżynier Oprogramowania",
-                "customer": "Capgemini",
+                "customer": "Capgemini Polska Sp. z o.o.",
                 "period": {
                     "from": "11.2017",
                     "to": "12.2019"
                 },
-                "description": "Jako bardziej doświadczony programista moje obowiązki w długoterminowym projekcie obejmowały rozwój aplikacji, analizę błędów oraz projektowanie i przeprowadzanie testów. Później odpowiadałem za testowanie Angulara, a następnie całego frontendu.",
+                "description": "Jako bardziej doświadczony programista moje obowiązki w długoterminowym projekcie obejmowały rozwój aplikacji, analizę błędów oraz projektowanie i przeprowadzanie testów. Byłem odpowiedzialny za testowanie w Angulara, a następnie za całą część frontendową aplikacji.",
                 "achievement": {
                     "label": "Osiągnięcia",
-                    "description": "Jako osoba odpowiedzialna za Angulara zdobyłem doświadczenie w testowaniu, programowaniu i architekturze Angulara. Miałem okazję dzielić się wiedzą poprzez prezentacje."
+                    "description": "Jako osoba odpowiedzialna za Angulara zdobyłem doświadczenie w testowaniu, programowaniu i architekturze Angulara. Miałem okazję dzielić się wiedzą poprzez prezentacje dla zespołu."
                 },
                 "usedTechnologies": [
                     "Java 8",
@@ -200,7 +200,7 @@
         ]
     },
    "skillsAndTools": {
-        "label": "Umiejętności i Narzędzia",
+        "label": "Umiejętności",
         "frontend": {
             "label": "Frontend",
             "skills": [
@@ -260,11 +260,19 @@
         "label": "Edukacja",
         "educationPart": [
             {
-                "title": "Mgr Matematyki",
-                "university": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+                "title": "Magister Matematyki",
+                "university": "Politechnika Poznańska",
                 "period": {
                     "from": "2012",
                     "to": "2014"
+                }
+            },
+            {
+                "title": "Licencjat matematyki",
+                "university": "Politechnika Poznańska",
+                "period": {
+                    "from": "2009",
+                    "to": "2012"
                 }
             }
         ]

@@ -19,7 +19,7 @@
         "experienceParts": [
             {
                 "title": "Senior Software Entwickler",
-                "customer": "Ein Kunde von y1",
+                "customer": "Y1 Digital AG",
                 "period": {
                     "from": "1.2024",
                     "to": "Heute"
@@ -68,7 +68,7 @@
             },
             {
                 "title": "Senior Software Entwickler",
-                "customer": "Ein Kunde von y1",
+                "customer": "Y1 Digital AG",
                 "period": {
                     "from": "2.2023",
                     "to": "6.2023"
@@ -86,7 +86,7 @@
             },
             {
                 "title": "Senior Software Entwickler",
-                "customer": "Ein Kunde von j-labs",
+                "customer": "j-labs sp. z o.o.",
                 "period": {
                     "from": "8.2022",
                     "to": "1.2023"
@@ -125,7 +125,7 @@
             },
             {
                 "title": "Senior Software Entwickler",
-                "customer": "Noblesoft",
+                "customer": "NobleSoft Sp. z o.o.",
                 "period": {
                     "from": "10.2020",
                     "to": "5.2021"
@@ -150,7 +150,7 @@
             },
             {
                 "title": "Senior Software Entwickler",
-                "customer": "Capgemini",
+                "customer": "Capgemini Polska Sp. z o.o.",
                 "period": {
                     "from": "1.2020",
                     "to": "9.2020"
@@ -175,7 +175,7 @@
             },
             {
                 "title": "Software Entwickler",
-                "customer": "Capgemini",
+                "customer": "Capgemini Polska Sp. z o.o.",
                 "period": {
                     "from": "11.2017",
                     "to": "12.2019"
