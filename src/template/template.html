@@ -9,13 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Responsive Resume Template">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
-	<link href="assets/images/favicon.png" type="image/x-icon" rel="icon" />
+	<link href="../assets/images/favicon.png" type="image/x-icon" rel="icon" />
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <!-- FontAwesome JS-->
     <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" ></script>
     <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
+    <link id="theme-style" rel="stylesheet" href="../assets/css/pillar-1.css">
 
 
 
@@ -41,9 +41,9 @@
 <!-- /START/ LANGUAGES MENU BAR -->
 <div class="button-languages">
 
-<div class="language-option {{#if (eq this.data.key 'polski')}}active{{/if}}" data-div="div-1" onclick="location.href='pl.html'">Polski</div>
-<div class="language-option {{#if (eq this.data.key 'english')}}active{{/if}}" data-div="div-2" onclick="location.href='en.html'">English</div>
-<div class="language-option {{#if (eq this.data.key 'deutsch')}}active{{/if}}" data-div="div-3" onclick="location.href='de.html'">Deutsch</div>
+<div class="language-option {{#if (eq this.data.key 'polski')}}active{{/if}}" data-div="div-1" onclick="location.href='/pl/'">Polski</div>
+<div class="language-option {{#if (eq this.data.key 'english')}}active{{/if}}" data-div="div-2" onclick="location.href='/en/'">English</div>
+<div class="language-option {{#if (eq this.data.key 'deutsch')}}active{{/if}}" data-div="div-3" onclick="location.href='/de/'">Deutsch</div>
 
 </div>
 <!-- /END/ LANGUAGES MENU BAR -->
@@ -53,7 +53,7 @@
 			<div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
 				<header class="resume-header pt-4 pt-md-0">
 					<div class="media flex-column flex-md-row">
-						<img class="mr-3 img-fluid picture mx-auto" src="assets/images/profile.jpg" alt="">
+						<img class="mr-3 img-fluid picture mx-auto" src="../assets/images/profile.jpg" alt="">
 						<div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
 							<div class="primary-info">
 								<h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">{{this.data.header.name}}</h1>
