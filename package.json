@@ -8,10 +8,11 @@
     "handlebars": "^4.7.8"
   },
   "scripts": {
-    "buildPl": "node ./src/index.js pl > ./src/pl.html",
-    "buildEn": "node ./src/index.js en > ./src/en.html",
-    "buildDe": "node ./src/index.js de > ./src/de.html",
-    "build": "npm run buildPl && npm run buildEn && npm run buildDe"
+    "buildPl": "node ./src/index.js pl > ./out/pl/pl.html",
+    "buildEn": "node ./src/index.js en > ./out/en/en.html",
+    "buildDe": "node ./src/index.js de > ./out/de/de.html",
+    "buildIndex": "cp ./src/index.html ./out/index.html",
+    "build": "npm run buildIndex && npm run buildPl && npm run buildEn && npm run buildDe"
   },
   "type": "module"
 }
