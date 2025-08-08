@@ -155,8 +155,8 @@
 
   .show {
     transform: translateX(105vw) skewX(0deg) !important;
-    transition: 1s;
-    transition-delay: 1.1s !important;
+    transition: 0s;
+    transition-delay: 0s !important;
     opacity: 1;
     transition-timing-function: ease-in-out;
   }
