@@ -1,37 +1,62 @@
-name: Build and Deploy to Dev and Pages
+name: Build and Deploy Pages
 
 on:
   push:
     branches:
-      - master
+      - gh-pages
+  workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-    # Checkout the code
     - name: Checkout Repository
-      uses: actions/checkout@v3
-      
-    # Setup Node.js
+      uses: actions/checkout@v4
+
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
-        node-version: 16
+        node-version: 20
 
-    # Install dependencies
     - name: Install Dependencies
-      run: npm install
+      run: npm ci
 
-    # Run project scripts
     - name: Run Build Script
       run: npm run build
 
-    # Deploy to GitHub Pages
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Prepare Pages build
+      run: |
+        cp -r ./out ./out-pages
+
+    - name: Upload Pages Artifact
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./out # Adjust this to your build output directory
-        branch: dev
+        name: pages-dist
+        path: ./out-pages
+
+  deploy-pages:
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+    - name: Download Pages Artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: pages-dist
+        path: ./out-pages
+
+    - name: Upload Pages Artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./out-pages
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
