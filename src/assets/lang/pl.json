@@ -14,7 +14,7 @@
         "description": "Od studenta matematyki przez Inżyniera IT do Starszego Inżyniera Oprogramowania. Od małej firmy, gdzie brakowało dokumentacji, systemu kontroli wersji i testów, mogłem rozpocząć pracę dla klientów z branży motoryzacyjnej w Capgemini, przechodząc przez wszystkie poziomy programowania (stażysta - starszy inżynier oprogramowania) z wieloma technologiami i frameworkami. Później pracowałem w firmie, w której poznałem specyfikę projektów dla klientów finansowych. Następnie wróciłem do projektów motoryzacyjnych w Deloitte ADS. Obecnie pracuję jako freelancer, koncentrując się na nauce umiejętnościach technicznych związanych z DevOps. Teraz pogłębiam wiedzę o Dockerze i Kubernetes. W razie potrzeby jestem gotów również uczyć się nowych technologii."
     },
     "experience": {
-        "label": "Doświadczenie zawodowe",
+        "label": "Doświadczenie zawodowe test",
         "usedTechnologiesLabel": "Używane technologie",
         "experienceParts": [
             {
