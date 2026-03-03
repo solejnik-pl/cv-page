@@ -8,13 +8,17 @@
     "handlebars": "^4.7.8"
   },
   "scripts": {
-    "buildPl": "node ./src/index.js pl > ./out/pl/index.html",
-    "buildEn": "node ./src/index.js en > ./out/en/index.html",
-    "buildDe": "node ./src/index.js de > ./out/de/index.html",
+    "buildPl": "node ./src/index.js pl dev> ./out/pl/index.html",
+    "buildPlProd": "node ./src/index.js pl prod> ./out/pl/index.html",
+    "buildEn": "node ./src/index.js en dev> ./out/en/index.html",
+    "buildEnProd": "node ./src/index.js en prod> ./out/en/index.html",
+    "buildDe": "node ./src/index.js de dev> ./out/de/index.html",
+    "buildDeProd": "node ./src/index.js de prod> ./out/de/index.html",
     "buildIndex": "cp ./src/index.html ./out/index.html",
     "copyIndex": "cp ./src/index.html ./out/index.html",
     "copyAssets": "cp -r ./src/assets ./out/",
-    "build": "npm run copyIndex && npm run copyAssets && npm run buildPl && npm run buildEn && npm run buildDe"
+    "build": "npm run copyIndex && npm run copyAssets && npm run buildPl && npm run buildEn && npm run buildDe",
+    "buildProd": "npm run copyIndex && npm run copyAssets && npm run buildPlProd && npm run buildEnProd && npm run buildDeProd"
   },
   "type": "module"
 }

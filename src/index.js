@@ -12,7 +12,8 @@ const template = Handlebars.compile(fs.readFileSync(__dirname + '/src/template/t
 
 const filePath = `/src/assets/lang/${process.argv[2]}.json`;
 const data = {
-    data: JSON.parse(fs.readFileSync(__dirname + `${filePath}`, 'utf8'))
+    data: JSON.parse(fs.readFileSync(__dirname + `${filePath}`, 'utf8')),
+    isDev: `${process.argv[3]}` === 'dev'
 };
 
 const output = template(data);
