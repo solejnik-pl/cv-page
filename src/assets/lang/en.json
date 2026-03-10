@@ -19,10 +19,36 @@
         "experienceParts": [
             {
                 "title": "Senior Software Engineer",
+                "customer": "Inetum Sp. z o.o.",
+                "period": {
+                    "from": "1.2025",
+                    "to": "present"
+                },
+                "description": "As a developer I am responsible for development and maintenance of a telecommunications e-commerce project responsible for the final stage of the purchasing process. During this step users provide their personal data and required agreements in order to complete the order of mobile internet or DSL/fiber services together with required hardware. My responsibilities include development of backend services using Java and Spring Boot, exposing and consuming REST APIs as well as development of frontend components using React. I am also responsible for writing automated tests and performing code reviews to maintain code quality. I work in an international environment cooperating with developers, architects, UX designers, business analysts, testers and web analysts from Germany, Romania and Poland.",
+                "achievement": {
+                    "label": "Achievements",
+                    "description": "Implemented integration with an external A/B testing platform allowing configuration of experiment groups using JSON configuration and traffic distribution (e.g. 50/50 or 33/33/34). Implemented switching logic between experiment variants based on the user’s assigned group stored in browser cookies."
+                },
+                "usedTechnologies": [
+                    "Java 21",
+                    "Spring Boot",
+                    "REST APIs",
+                    "React",
+                    "Typescript",
+                    "Automated tests",
+                    "Code reviews",
+                    "Docker",
+                    "Kubernetes",
+                    "Jenkins",
+                    "Kanban"
+                ]
+            },
+            {
+                "title": "Senior Software Engineer",
                 "customer": "Y1 Digital AG",
                 "period": {
                     "from": "1.2024",
-                    "to": "now"
+                    "to": "12.2024"
                 },
                 "description": "As developer I am mainly carrying of the backed part of the application. I receives very different tasks from each part of the subsystem of a very complex e-commerce system.",
                 "achievement": {

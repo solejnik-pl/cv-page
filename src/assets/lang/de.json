@@ -18,11 +18,37 @@
         "usedTechnologiesLabel": "Verwendete Technologien",
         "experienceParts": [
             {
+                "title": "Senior Software Engineer",
+                "customer": "Inetum Sp. z o.o.",
+                "period": {
+                    "from": "1.2025",
+                    "to": "heute"
+                },
+                "description": "Als Softwareentwickler bin ich für die Entwicklung und Wartung eines E-Commerce-Projekts im Telekommunikationsbereich verantwortlich, das die letzte Phase des Kaufprozesses abdeckt. In diesem Schritt geben Benutzer ihre persönlichen Daten an und erteilen die erforderlichen Zustimmungen, um eine Bestellung für mobiles Internet oder DSL/Fiber zusammen mit der benötigten Hardware abzuschließen. Meine Aufgaben umfassen die Entwicklung von Backend-Services mit Java und Spring Boot, das Bereitstellen und Konsumieren von REST-APIs sowie die Entwicklung von Frontend-Komponenten mit React. Außerdem bin ich für das Schreiben automatisierter Tests und Code Reviews zur Sicherstellung der Codequalität verantwortlich. Ich arbeite in einem internationalen Umfeld und kooperiere mit Entwicklern, Architekten, UX-Designern, Business-Analysten, Testern und Web-Analysten aus Deutschland, Rumänien und Polen.",
+                "achievement": {
+                    "label": "Erfolge",
+                    "description": "Implementierung einer Integration mit einer externen A/B-Testing-Plattform, die die Konfiguration von Experimentgruppen über JSON sowie Traffic-Verteilung (z. B. 50/50 oder 33/33/34) ermöglicht. Implementierung der Logik zum Umschalten zwischen Experimentvarianten basierend auf der dem Benutzer zugewiesenen Gruppe, die in Browser-Cookies gespeichert wird."
+                },
+                "usedTechnologies": [
+                    "Java 21",
+                    "Spring Boot",
+                    "REST APIs",
+                    "React",
+                    "Typescript",
+                    "Automatisierte Tests",
+                    "Code Reviews",
+                    "Docker",
+                    "Kubernetes",
+                    "Jenkins",
+                    "Kanban"
+                ]
+            },
+            {
                 "title": "Senior Software Entwickler",
                 "customer": "Y1 Digital AG",
                 "period": {
                     "from": "1.2024",
-                    "to": "Heute"
+                    "to": "12.2024"
                 },
                 "description": "Als Entwickler bin ich hauptsächlich für den Backend-Teil der Anwendung verantwortlich. Ich erhalte sehr unterschiedliche Aufgaben aus jedem Teil des Subsystems eines sehr komplexen E-Commerce-Systems.",
                 "achievement": {

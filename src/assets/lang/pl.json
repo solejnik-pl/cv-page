@@ -19,10 +19,36 @@
         "experienceParts": [
             {
                 "title": "Starszy Inżynier Oprogramowania",
+                "customer": "Inetum Sp. z o.o.",
+                "period": {
+                    "from": "1.2025",
+                    "to": "obecnie"
+                },
+                "description": "Jako programista jestem odpowiedzialny za rozwój i utrzymanie projektu e-commerce z branży telekomunikacyjnej odpowiedzialnego za końcowy etap procesu zakupowego. Na tym etapie użytkownicy podają swoje dane osobowe oraz wyrażają wymagane zgody w celu finalizacji zamówienia internetu mobilnego lub DSL/fiber wraz z wymaganym sprzętem. Moje obowiązki obejmują rozwój backendu w technologii Java i Spring Boot, wystawianie oraz konsumpcję REST API, a także rozwój komponentów frontendowych w React. Odpowiadam również za pisanie testów automatycznych oraz przeprowadzanie code review w celu utrzymania jakości kodu. Pracuję w międzynarodowym środowisku współpracując z programistami, architektami, projektantami UX, analitykami biznesowymi, testerami oraz webanalitykami z Niemiec, Rumunii i Polski.",
+                "achievement": {
+                    "label": "Osiągnięcia",
+                    "description": "Zaimplementowałem integrację z zewnętrzną platformą do testów A/B umożliwiającą konfigurację grup eksperymentalnych przy użyciu konfiguracji JSON oraz dystrybucji ruchu (np. 50/50 lub 33/33/34). W projekcie zaimplementowałem logikę przełączania pomiędzy wariantami eksperymentu na podstawie grupy przypisanej użytkownikowi, przechowywanej w plikach cookie."
+                },
+                "usedTechnologies": [
+                    "Java 21",
+                    "Spring Boot",
+                    "REST APIs",
+                    "React",
+                    "Typescript",
+                    "Automated tests",
+                    "Code review",
+                    "Docker",
+                    "Kubernetes",
+                    "Jenkins",
+                    "Kanban"
+                ]
+            },
+            {
+                "title": "Starszy Inżynier Oprogramowania",
                 "customer": "Y1 Digital AG",
                 "period": {
                     "from": "1.2024",
-                    "to": "obecnie"
+                    "to": "12.2024"
                 },
                 "description": "Jako programista głównie zajmuję się częścią backendową aplikacji. Otrzymuję bardzo różnorodne zadania z różnych części podsystemów w ramach złożonego systemu e-commerce.",
                 "achievement": {
