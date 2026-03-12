@@ -177,12 +177,14 @@
 								<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{certificates.label}}</h2>
 								<div class="resume-section-content">
 									<ul class="list-unstyled resume-awards-list">
-										<li class="mb-2">
-											<i class="position-absolute" data-fa-transform="shrink-2"></i>
-											<div class="resume-award-name">{{this.data.certificates.name}}</div>
-											<div class="resume-award-desc">{{this.data.certificates.preDescription}}
-												<a target="_blank" href={{this.data.certificates.url}}>{{this.data.certificates.postDescription}}</a>)</div>
-										</li>
+										{{#each this.data.certificates.entities}}
+											<li class="mb-2">
+												<i class="position-absolute" data-fa-transform="shrink-2"></i>
+												<div class="resume-award-name">{{this.name}}</div>
+												<div class="resume-award-desc">{{this.preDescription}}
+													<a target="_blank" href={{this.url}}>{{this.postDescription}}</a>)</div>
+											</li>
+										{{/each}}
 									</ul>
 								</div>
 							</section><!--//interests-section-->
